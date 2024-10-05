@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿IndicatorCode,Indicator,ParentLocationCode,ParentLocation,Location type,SpatialDimValueCode,Location,Period type,Period,IsLatestYear,latitude,longitude,Value,Language
 ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,AFR,Africa,Country,BEN,Benin,Year,2019,TRUE,9.3077,2.3158,Unaffordable,EN
 ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,AFR,Africa,Country,BFA,Burkina Faso,Year,2019,TRUE,12.2383,-1.5616,Unaffordable,EN
@@ -76,3 +77,83 @@ ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste
 ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,WPR,Western Pacific,Country,PHL,Philippines,Year,2019,TRUE,12.8797,121.774,Unaffordable,EN
 ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,WPR,Western Pacific,Country,SGP,Singapore,Year,2019,TRUE,1.3521,103.8198,Affordable,EN
 ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,WPR,Western Pacific,Country,SLB,Solomon Islands,Year,2019,TRUE,-9.6457,160.1562,Affordable,EN
+=======
+﻿IndicatorCode,Indicator,ParentLocationCode,ParentLocation,Location type,SpatialDimValueCode,Location,Period type,Period,IsLatestYear,latitude,longitude,Value,Language
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,AFR,Africa,Country,BEN,Benin,Year,2019,TRUE,9.3077,2.3158,Unaffordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,AFR,Africa,Country,BFA,Burkina Faso,Year,2019,TRUE,12.2383,-1.5616,Unaffordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,AFR,Africa,Country,CAF,Central African Republic,Year,2019,TRUE,6.6111,20.9394,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,AFR,Africa,Country,COG,Congo,Year,2019,TRUE,-0.228,15.8277,Unaffordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,AFR,Africa,Country,GHA,Ghana,Year,2019,TRUE,7.9465,-1.0232,Unaffordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,AFR,Africa,Country,LSO,Lesotho,Year,2019,TRUE,-29.61,28.2336,Unaffordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,AFR,Africa,Country,MLI,Mali,Year,2019,TRUE,17.5707,-3.9962,Unaffordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,AFR,Africa,Country,MOZ,Mozambique,Year,2019,TRUE,-18.6657,35.5296,Unaffordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,AFR,Africa,Country,MRT,Mauritania,Year,2019,TRUE,21.0079,-10.9408,Unaffordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,AFR,Africa,Country,MUS,Mauritius,Year,2019,TRUE,-20.3484,57.5522,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,AFR,Africa,Country,NGA,Nigeria,Year,2019,TRUE,9.082,8.6753,Unaffordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,AFR,Africa,Country,SEN,Senegal,Year,2019,TRUE,14.4974,-14.4524,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,AFR,Africa,Country,SLE,Sierra Leone,Year,2019,TRUE,8.4606,-11.7799,Unaffordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,AFR,Africa,Country,TGO,Togo,Year,2019,TRUE,8.6195,0.8248,Unaffordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,AFR,Africa,Country,TZA,United Republic of Tanzania,Year,2019,TRUE,-6.369,34.8888,Unaffordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,AFR,Africa,Country,UGA,Uganda,Year,2019,TRUE,1.3733,32.2903,Unaffordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,AFR,Africa,Country,ZAF,South Africa,Year,2019,TRUE,-30.5595,22.9375,Unaffordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,AFR,Africa,Country,ZWE,Zimbabwe,Year,2019,TRUE,-19.0154,29.1549,Unaffordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,AMR,Americas,Country,BRA,Brazil,Year,2019,TRUE,-14.235,-51.9253,Unaffordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,AMR,Americas,Country,CAN,Canada,Year,2019,TRUE,56.1304,-106.3468,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,AMR,Americas,Country,COL,Colombia,Year,2019,TRUE,4.5709,-74.2973,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,AMR,Americas,Country,CRI,Costa Rica,Year,2019,TRUE,9.7489,-83.7534,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,AMR,Americas,Country,ECU,Ecuador,Year,2019,TRUE,-1.8312,-78.1834,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,AMR,Americas,Country,KNA,Saint Kitts and Nevis,Year,2019,TRUE,17.3578,-62.783,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,AMR,Americas,Country,MEX,Mexico,Year,2019,TRUE,23.6345,-102.5528,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,AMR,Americas,Country,PER,Peru,Year,2019,TRUE,-9.19,-75.0152,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,AMR,Americas,Country,TTO,Trinidad and Tobago,Year,2019,TRUE,10.6918,-61.2225,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,AMR,Americas,Country,USA,United States of America,Year,2019,TRUE,37.0902,-95.7129,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EMR,Eastern Mediterranean,Country,EGY,Egypt,Year,2019,TRUE,26.8206,30.8025,Unaffordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EMR,Eastern Mediterranean,Country,JOR,Jordan,Year,2019,TRUE,30.5852,36.2384,Unaffordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EMR,Eastern Mediterranean,Country,LBN,Lebanon,Year,2019,TRUE,33.8547,35.8623,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EUR,Europe,Country,ALB,Albania,Year,2019,TRUE,41.1533,20.1683,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EUR,Europe,Country,AUT,Austria,Year,2019,TRUE,47.5162,14.5501,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EUR,Europe,Country,BEL,Belgium,Year,2019,TRUE,50.5039,4.4699,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EUR,Europe,Country,BGR,Bulgaria,Year,2019,TRUE,42.7339,25.4858,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EUR,Europe,Country,CHE,Switzerland,Year,2019,TRUE,46.8182,8.2275,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EUR,Europe,Country,CYP,Cyprus,Year,2019,TRUE,35.1264,33.4299,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EUR,Europe,Country,CZE,Czechia,Year,2019,TRUE,49.8175,15.473,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EUR,Europe,Country,DEU,Germany,Year,2019,TRUE,51.1657,10.4515,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EUR,Europe,Country,DNK,Denmark,Year,2019,TRUE,56.2639,9.5018,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EUR,Europe,Country,ESP,Spain,Year,2019,TRUE,40.4637,-3.7492,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EUR,Europe,Country,EST,Estonia,Year,2019,TRUE,58.5953,25.0136,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EUR,Europe,Country,FIN,Finland,Year,2019,TRUE,61.9241,25.7482,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EUR,Europe,Country,FRA,France,Year,2019,TRUE,46.6034,1.8883,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EUR,Europe,Country,GBR,United Kingdom of Great Britain and Northern Ireland,Year,2019,TRUE,55.3781,-3.436,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EUR,Europe,Country,GRC,Greece,Year,2019,TRUE,39.0742,21.8243,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EUR,Europe,Country,HRV,Croatia,Year,2019,TRUE,45.1,15.2,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EUR,Europe,Country,IRL,Ireland,Year,2019,TRUE,53.1424,-7.6921,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EUR,Europe,Country,ISL,Iceland,Year,2019,TRUE,64.9631,-19.0208,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EUR,Europe,Country,ISR,Israel,Year,2019,TRUE,31.0461,34.8516,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EUR,Europe,Country,ITA,Italy,Year,2019,TRUE,41.8719,12.5674,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EUR,Europe,Country,LTU,Lithuania,Year,2019,TRUE,55.1694,23.8813,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EUR,Europe,Country,LVA,Latvia,Year,2019,TRUE,56.8796,24.6032,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EUR,Europe,Country,MLT,Malta,Year,2019,TRUE,35.9375,14.3754,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EUR,Europe,Country,NLD,Netherlands (Kingdom of the),Year,2019,TRUE,52.1326,5.2913,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EUR,Europe,Country,NOR,Norway,Year,2019,TRUE,60.472,8.4689,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EUR,Europe,Country,PRT,Portugal,Year,2019,TRUE,39.3999,-8.2245,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EUR,Europe,Country,ROU,Romania,Year,2019,TRUE,45.9432,24.9668,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EUR,Europe,Country,RUS,Russian Federation,Year,2019,TRUE,61.524,105.3188,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EUR,Europe,Country,SRB,Serbia,Year,2019,TRUE,44.0165,21.0059,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,EUR,Europe,Country,SWE,Sweden,Year,2019,TRUE,60.1282,18.6435,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,SEAR,South-East Asia,Country,BGD,Bangladesh,Year,2019,TRUE,23.685,90.3563,Unaffordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,SEAR,South-East Asia,Country,IDN,Indonesia,Year,2019,TRUE,-0.7893,113.9213,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,SEAR,South-East Asia,Country,MMR,Myanmar,Year,2019,TRUE,21.9162,95.956,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,SEAR,South-East Asia,Country,NPL,Nepal,Year,2019,TRUE,28.3949,84.124,Unaffordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,SEAR,South-East Asia,Country,THA,Thailand,Year,2019,TRUE,15.87,100.9925,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,WPR,Western Pacific,Country,AUS,Australia,Year,2019,TRUE,-25.2744,133.7751,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,WPR,Western Pacific,Country,CHN,China,Year,2019,TRUE,35.8617,104.1954,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,WPR,Western Pacific,Country,FJI,Fiji,Year,2019,TRUE,-17.7134,178.065,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,WPR,Western Pacific,Country,JPN,Japan,Year,2019,TRUE,36.2048,138.2529,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,WPR,Western Pacific,Country,KHM,Cambodia,Year,2019,TRUE,12.5657,104.991,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,WPR,Western Pacific,Country,LAO,Lao People's Democratic Republic,Year,2019,TRUE,19.8563,102.4955,Unaffordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,WPR,Western Pacific,Country,MYS,Malaysia,Year,2019,TRUE,4.2105,101.9758,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,WPR,Western Pacific,Country,NZL,New Zealand,Year,2019,TRUE,-40.9006,174.886,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,WPR,Western Pacific,Country,PHL,Philippines,Year,2019,TRUE,12.8797,121.774,Unaffordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,WPR,Western Pacific,Country,SGP,Singapore,Year,2019,TRUE,1.3521,103.8198,Affordable,EN
+ORALHEALTH_AFFORDABILITY_FLUORIDETOOTHPASTE,Affordability of fluoride toothpaste,WPR,Western Pacific,Country,SLB,Solomon Islands,Year,2019,TRUE,-9.6457,160.1562,Affordable,EN
+>>>>>>> 076c9aaa00aa9f4a8d76e2f6c27e33584be5c940
