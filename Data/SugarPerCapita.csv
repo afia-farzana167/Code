@@ -1,0 +1,7 @@
+﻿IndicatorCode,Indicator,ValueType,ParentLocation,Period type,Period,IsLatestYear,Dim1 type,Dim1,Dim1ValueCode,FactValueNumeric,Language
+ORALHEALTH_SUGAR_AVAILABILITY,Per capita availability of refined sugar (g/day),numeric,Africa,Year,2019,TRUE,Sex,Both sexes,SEX_BTSX,1716.92,EN
+ORALHEALTH_SUGAR_AVAILABILITY,Per capita availability of refined sugar (g/day),numeric,Americas,Year,2019,TRUE,Sex,Both sexes,SEX_BTSX,3437.95,EN
+ORALHEALTH_SUGAR_AVAILABILITY,Per capita availability of refined sugar (g/day),numeric,Eastern Mediterranean,Year,2019,TRUE,Sex,Both sexes,SEX_BTSX,1390.15,EN
+ORALHEALTH_SUGAR_AVAILABILITY,Per capita availability of refined sugar (g/day),numeric,Europe,Year,2019,TRUE,Sex,Both sexes,SEX_BTSX,3978.08,EN
+ORALHEALTH_SUGAR_AVAILABILITY,Per capita availability of refined sugar (g/day),numeric,South East Asia,Year,2019,TRUE,Sex,Both sexes,SEX_BTSX,498.18,EN
+ORALHEALTH_SUGAR_AVAILABILITY,Per capita availability of refined sugar (g/day),numeric,Western Pacific,Year,2019,TRUE,Sex,Both sexes,SEX_BTSX,1041.23,EN

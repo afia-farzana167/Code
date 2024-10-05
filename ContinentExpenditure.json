@@ -1,19 +1,39 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "Select multiple points with the shift key.",
-    "data": {"url": "data/cars.json"},
-    "params": [{
-      "name": "paintbrush",
-      "select": {"type": "point", "on": "pointerover", "nearest": true}
-    }],
-    "mark": "point",
+    "width": 800, 
+    "height": 450, 
+    "title": "Top 10 Highest and Lowest Spending Countries on Dental Care",
+    "data": {
+      "url": "https://raw.githubusercontent.com/afia-farzana167/Code/refs/heads/main/Data/Top%20and%20Botton%2010%20Expenditure.csv"
+    },
+    "mark": "bar",
     "encoding": {
-      "x": {"field": "Horsepower", "type": "quantitative"},
-      "y": {"field": "Miles_per_Gallon", "type": "quantitative"},
-      "size": {
-        "condition": {"param": "paintbrush", "value": 300},
-        "value": 50
+      "x": {
+        "field": "Location", "type": "nominal",
+        "axis": {
+          "domain": false,
+          "ticks": false,
+          "labelAngle": 0,
+          "labelPadding": 4,
+          "labelOpacity": 0
+        }
+      },
+      "y": {
+        "field": "FactValueNumeric", "type": "quantitative",
+        "axis": {
+          "gridColor": {
+            "condition": {"test": "datum.value === 0", "value": "black"},
+            "value": "#ddd"
+          }
+        }
+      }, 
+      "color": {
+        "condition": {
+          "test": "datum.FactValueNumeric < 0", 
+          "value": "red" 
+        },
+        "value": "blue" 
       }
     }
+    
   }
-  
