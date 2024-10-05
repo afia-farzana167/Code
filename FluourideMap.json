@@ -7,7 +7,7 @@
     "layer": [
         {
             "data": {
-                "url": "C:/Users/mfarz/OneDrive/Documents/FIT3179/A2/Code/Data/ne_110m.json",
+                "url": "https://raw.githubusercontent.com/afia-farzana167/Code/refs/heads/main/Data/ne_110m.json",
                 "format": {
                     "type": "topojson",
                     "feature": "ne_110m_admin_0_countries"
@@ -21,25 +21,25 @@
         },
         {
             "data": {
-                "url": "https://raw.githubusercontent.com/afia-farzana167/Code/refs/heads/main/Data/Affordability_of_fluoride_toothpaste.csv"
+                "url": "https://raw.githubusercontent.com/afia-farzana167/Code/refs/heads/main/Data/labour_cost_toothpaste.csv"
             },
             "mark": {
-                "type": "circle"
+                "type": "circle", "tooltip": {"content": "data"}
             },
             "encoding": {
                 "latitude": {"field": "latitude", "type": "quantitative"},
                 "longitude": {"field": "longitude", "type": "quantitative"},
                 "size": {
                     "field": "FactValueNumeric",
-                    "type": "quantitative",
-                    "title": "Number of Work Days Needed to Afford Year's Worth of Toothpaste"
+                    "type": "quantitative"
                 },
                 "color": {
                     "field": "FactValueNumeric",
                     "type": "quantitative",
-                    "title": "Number of Work Days Needed to Afford Year's Worth of Toothpaste",
-                    "scale": {"scheme": "reds"}
+                    "scale": {"scheme": "reds"},
+                    "title": "Days of Work to Buy Toothpaste"
                 },
+                
                 "tooltip": [
                     {"field": "longitude"},
                     {"field": "latitude"},
