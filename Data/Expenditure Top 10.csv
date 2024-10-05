@@ -1,4 +1,5 @@
-﻿ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL,Total expenditure on dental healthcare in million (US$),numeric,WPR,Western Pacific,Country,AUS,Australia,Year,2019,TRUE,7370,7 370.3,EN
+﻿IndicatorCode,Indicator,ValueType,ParentLocationCode,ParentLocation,Location type,SpatialDimValueCode,Location,Period type,Period,IsLatestYear,FactValueNumeric,Value,Language
+ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL,Total expenditure on dental healthcare in million (US$),numeric,WPR,Western Pacific,Country,AUS,Australia,Year,2019,TRUE,7370,7 370.3,EN
 ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL,Total expenditure on dental healthcare in million (US$),numeric,EUR,Europe,Country,ESP,Spain,Year,2019,TRUE,8306,8 306.3,EN
 ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL,Total expenditure on dental healthcare in million (US$),numeric,EUR,Europe,Country,GBR,United Kingdom of Great Britain and Northern Ireland,Year,2019,TRUE,9577,9 576.9,EN
 ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL,Total expenditure on dental healthcare in million (US$),numeric,EUR,Europe,Country,FRA,France,Year,2019,TRUE,12666,12 666.0,EN
