@@ -1,14 +1,14 @@
 ﻿IndicatorCode,Indicator,ValueType,ParentLocationCode,ParentLocation,Location type,SpatialDimValueCode,Location,Period type,Period,IsLatestYear,FactValueNumeric,Value,Language
-ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL,Total expenditure on dental healthcare in million (US$),numeric,EMR,Eastern Mediterranean,Country,IRQ,Iraq,Year,2019,TRUE,0.01,0,EN
-ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL,Total expenditure on dental healthcare in million (US$),numeric,AFR,Africa,Country,NER,Niger,Year,2019,TRUE,0.02,0,EN
-ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL,Total expenditure on dental healthcare in million (US$),numeric,WPR,Western Pacific,Country,KHM,Cambodia,Year,2019,TRUE,0.02,0,EN
-ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL,Total expenditure on dental healthcare in million (US$),numeric,AFR,Africa,Country,KEN,Kenya,Year,2019,TRUE,0.03,0,EN
-ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL,Total expenditure on dental healthcare in million (US$),numeric,AFR,Africa,Country,GMB,Gambia,Year,2019,TRUE,0.04,0,EN
-ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL,Total expenditure on dental healthcare in million (US$),numeric,SEAR,South-East Asia,Country,BTN,Bhutan,Year,2019,TRUE,0.05,0,EN
-ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL,Total expenditure on dental healthcare in million (US$),numeric,AFR,Africa,Country,ETH,Ethiopia,Year,2019,TRUE,0.06,0.1,EN
-ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL,Total expenditure on dental healthcare in million (US$),numeric,WPR,Western Pacific,Country,TUV,Tuvalu,Year,2019,TRUE,0.1,0.1,EN
-ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL,Total expenditure on dental healthcare in million (US$),numeric,AFR,Africa,Country,STP,Sao Tome and Principe,Year,2019,TRUE,0.14,0.1,EN
-ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL,Total expenditure on dental healthcare in million (US$),numeric,AFR,Africa,Country,TZA,United Republic of Tanzania,Year,2019,TRUE,0.14,0.1,EN
+ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL,Total expenditure on dental healthcare in million (US$),numeric,EMR,Eastern Mediterranean,Country,IRQ,Iraq,Year,2019,TRUE,-0.01,0,EN
+ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL,Total expenditure on dental healthcare in million (US$),numeric,AFR,Africa,Country,NER,Niger,Year,2019,TRUE,-0.02,0,EN
+ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL,Total expenditure on dental healthcare in million (US$),numeric,WPR,Western Pacific,Country,KHM,Cambodia,Year,2019,TRUE,-0.02,0,EN
+ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL,Total expenditure on dental healthcare in million (US$),numeric,AFR,Africa,Country,KEN,Kenya,Year,2019,TRUE,-0.03,0,EN
+ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL,Total expenditure on dental healthcare in million (US$),numeric,AFR,Africa,Country,GMB,Gambia,Year,2019,TRUE,-0.04,0,EN
+ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL,Total expenditure on dental healthcare in million (US$),numeric,SEAR,South-East Asia,Country,BTN,Bhutan,Year,2019,TRUE,-0.05,0,EN
+ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL,Total expenditure on dental healthcare in million (US$),numeric,AFR,Africa,Country,ETH,Ethiopia,Year,2019,TRUE,-0.06,0.1,EN
+ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL,Total expenditure on dental healthcare in million (US$),numeric,WPR,Western Pacific,Country,TUV,Tuvalu,Year,2019,TRUE,-0.1,0.1,EN
+ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL,Total expenditure on dental healthcare in million (US$),numeric,AFR,Africa,Country,STP,Sao Tome and Principe,Year,2019,TRUE,-0.14,0.1,EN
+ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL,Total expenditure on dental healthcare in million (US$),numeric,AFR,Africa,Country,TZA,United Republic of Tanzania,Year,2019,TRUE,-0.14,0.1,EN
 ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL,Total expenditure on dental healthcare in million (US$),numeric,WPR,Western Pacific,Country,AUS,Australia,Year,2019,TRUE,7370,7 370.3,EN
 ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL,Total expenditure on dental healthcare in million (US$),numeric,EUR,Europe,Country,ESP,Spain,Year,2019,TRUE,8306,8 306.3,EN
 ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL,Total expenditure on dental healthcare in million (US$),numeric,EUR,Europe,Country,GBR,United Kingdom of Great Britain and Northern Ireland,Year,2019,TRUE,9577,9 576.9,EN
