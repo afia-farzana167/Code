@@ -1,0 +1,42 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Daily Availability of Sugar per Capita",
+    "data": {
+      "url": "https://raw.githubusercontent.com/afia-farzana167/Code/refs/heads/main/Data/SugarPerCapita.csv"
+    },
+    "layer": [
+      {
+        "mark": {
+          "type": "rule",
+          "color": "gray"
+        },
+        "encoding": {
+          "x": {"field": "ParentLocation", "type": "nominal", "axis": {"labelAngle": 0}},
+          "y": {"field": "FactValueNumeric", "type": "quantitative", "scale": {"reverse": false}} 
+        }
+      },
+      {
+        "mark": {
+          "type": "circle",
+          "color": "steelblue",
+          "size": 100
+        },
+        "encoding": {
+          "x": {
+            "field": "ParentLocation", 
+            "type": "nominal", 
+            "axis": {
+              "ticks": false,
+              "labelOpacity": 0
+            }
+          },
+          "y": {"field": "FactValueNumeric", "type": "quantitative"},
+          "tooltip": [
+            {"field": "ParentLocation", "type": "nominal"},
+            {"field": "FactValueNumeric", "type": "quantitative"}
+          ]
+        }
+      }
+    ]
+  }
+  
