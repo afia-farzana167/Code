@@ -1,0 +1,25 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "height": 450,
+    "width": 800,
+    "title": "Prevalence of Untreated Caries in People Aged Over 5",
+    "data": {
+      "url": "https://raw.githubusercontent.com/afia-farzana167/Code/refs/heads/main/Data/Prevalence%20of%20untreated%20caries%20of%20permanent%20teeth%20in%20people%205%5EM%20years.csv"
+    },
+    "mark": "point",
+    "encoding": {
+      "x": {
+        "field": "Location",
+        "type": "nominal", 
+        "axis": {
+          "ticks": false,
+          "labelOpacity": 0
+        }
+      },
+      "y": {
+        "field": "FactValueNumeric",
+        "type": "quantitative"
+      },
+      "color": {"field": "ParentLocation", "type": "nominal"}
+    }
+  }
