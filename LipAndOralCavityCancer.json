@@ -1,0 +1,75 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Data is based on the following dataset: https://www.who.int/data/gho/data/indicators/indicator-details/GHO/number-of-new-cases",
+    "config": {"view": {"stroke": ""}},
+    "width": 400,
+    "height": 400,
+    "data": {
+      "values": [
+        {"id": 1},
+        {"id": 2},
+        {"id": 3},
+        {"id": 4},
+        {"id": 5},
+        {"id": 6},
+        {"id": 7},
+        {"id": 8},
+        {"id": 9},
+        {"id": 10},
+        {"id": 11},
+        {"id": 12},
+        {"id": 13},
+        {"id": 14},
+        {"id": 15},
+        {"id": 16},
+        {"id": 17},
+        {"id": 18},
+        {"id": 19},
+        {"id": 20},
+        {"id": 21},
+        {"id": 22},
+        {"id": 23},
+        {"id": 24},
+        {"id": 25},
+        {"id": 26},
+        {"id": 27},
+        {"id": 28},
+        {"id": 29},
+        {"id": 30},
+        {"id": 31},
+        {"id": 32},
+        {"id": 33},
+        {"id": 34},
+        {"id": 35},
+        {"id": 36},
+        {"id": 37}
+      ]
+    },
+    "transform": [
+      {"calculate": "ceil (datum.id/5)", "as": "col"},
+      {"calculate": "datum.id - datum.col*5", "as": "row"}
+    ],
+    "title": {
+      "text": "1 tooth : 10, 000 people",
+      "font": "Times New Roman",
+      "fontWeight": "normal",
+      "anchor": "end",    
+      "fontSize": 18,      
+      "dy": 450            
+    },
+    "mark": {"type": "point", "filled": true},
+    "encoding": {
+      "x": {"field": "col", "type": "ordinal", "axis": null},
+      "y": {"field": "row", "type": "ordinal", "axis": null},
+      "shape": {
+        "value": "M4.36,14c-1,0-0.56-2.67-0.86-5c-0.1-0.76-1-1.49-1.12-2.06C2,5,1.39,1.44,3.66,1S6,3,7.54,3s1.57-2.36,3.85-2 s1.59,3.9,1.29,5.9c-0.1,0.45-1.1,1.48-1.18,2.06c-0.33,2.4,0.32,5-0.8,5c-0.93,0-1.32-2.72-2-4.5C8.43,8.63,8.06,8,7.54,8 C6,8,5.75,14,4.36,14z"
+  
+      },
+      "color": {
+        "condition": {"param": "highlight", "value": "rgb(0, 0, 0)"},
+        "value": "rgb(167,165,156)"
+      },
+      "size": {"value": 30}
+    },
+    "params": [{"name": "highlight", "select": "interval"}]
+  }
