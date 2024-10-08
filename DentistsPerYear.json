@@ -1,0 +1,14 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/afia-farzana167/Code/refs/heads/main/Data/Dentists%20Per%2010000.csv"},
+    "mark": {
+      "type": "line",
+      "point": true
+    },
+    "encoding": {
+      "x": {"timeUnit": "year", "field": "Period"},
+      "y": {"aggregate":"mean", "field": "Value", "type": "quantitative"},
+      "color": {"field": "ParentLocation", "type": "nominal"}
+    }
+  }
+  
