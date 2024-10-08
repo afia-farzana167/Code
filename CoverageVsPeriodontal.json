@@ -1,0 +1,47 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A dual axis chart, created by setting y's scale resolution to `\"independent\"`",
+    "width": 400, "height": 400,
+    "data": {
+      "url": "https://raw.githubusercontent.com/afia-farzana167/Code/refs/heads/main/Data/periodontal%20vs%20healthcare.csv"
+    },
+    "encoding": {
+      "x": {
+        "field": "Location", 
+        "axis": {
+          "ticks": false,
+          "labelOpacity": 0
+        }
+      }
+    },
+    "layer": [
+      {
+        "mark": {"stroke": "#85C5A6", "type": "line"},
+        "encoding": {
+          "y": {
+            "aggregate": "average",
+            "field": "FactValueNumeric",
+            "scale": {"domain": [0, 100]},
+            "title": "Government Coverage of Oral Health Packages (%)",
+            "axis": {"titleColor": "#85C5A6"},
+            "sort": "ascending"
+          }
+        }
+      },
+      {
+        "mark": {"stroke": "#85A9C5", "type": "line"},
+        "encoding": {
+          "y": {
+            "aggregate": "average",
+            "field": "issue",
+            "type": "quantitative",
+            "scale": {"domain": [0, 40]},
+            "title": "Prevalence of Severe Periodonatal Disease ",
+            "axis": {"titleColor":"#85A9C5"}
+          }
+        }
+      }
+    ],
+    "resolve": {"scale": {"y": "independent"}}
+  }
+  
