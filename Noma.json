@@ -1,0 +1,24 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A simple bar chart with embedded data.",
+    "data": {
+      "url": "https://raw.githubusercontent.com/afia-farzana167/Code/refs/heads/main/Data/Noma.csv"
+    },
+    "mark": {
+      "type": "bar"
+    },
+    "encoding": {
+      "x": {
+        "field": "Country", 
+        "type": "nominal"
+      },
+      "y": {
+        "field": "Millions", 
+        "type": "quantitative", 
+        "scale": {
+          "domain": [0, 500]
+        }
+      }
+    }
+  }
+  
