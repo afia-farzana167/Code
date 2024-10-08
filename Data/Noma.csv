@@ -1,57 +1,57 @@
-﻿Country ,Value
-Nigeria,Yes
-Ethiopia,No
-Egypt,No
-DR Congo,No
-Tanzania,No
-South Africa,No
-Kenya,No
-Sudan,No
-Uganda,No
-Algeria,No
-Morocco,No
-Angola,No
-Mozambique,No
-Ghana,No
-Madagascar,No
-Côte d'Ivoire,No
-Cameroon,No
-Niger,No
-Mali,Yes
-Burkina Faso,Yes
-Malawi,No
-Zambia,No
-Chad,No
-Somalia,No
-Senegal,Yes
-Zimbabwe,No
-Guinea,No
-Benin,Yes
-Rwanda,No
-Burundi,No
-Tunisia,No
-South Sudan,No
-Togo,Yes
-Sierra Leone,No
-Libya,No
-Congo,Yes
-Liberia,No
-Central African Republic,No
-Mauritania,No
-Eritrea,No
-Namibia,No
-Gambia,No
-Gabon,No
-Botswana,No
-Lesotho,No
-Guinea-Bissau,Yes
-Equatorial Guinea,No
-Mauritius,No
-Eswatini,No
-Djibouti,No
-Comoros,No
-Cabo Verde,No
-Sao Tome & Principe,No
-Seychelles,No
-Niger,Yes
-Cote d'Ivoire,Yes
+﻿Country ,Value,Population
+Nigeria,Yes,"232,705,991"
+Ethiopia,No,"126,920,000"
+Egypt,No,"116,528,000"
+DR Congo,No,"109,300,000"
+Tanzania,No,"68,234,213"
+South Africa,No,"64,000,000"
+Kenya,No,"58,523,126"
+Sudan,No,"50,416,679"
+Uganda,No,"50,141,497"
+Algeria,No,"46,799,981"
+Morocco,No,"38,118,969"
+Angola,No,"36,206,164"
+Mozambique,No,"36,066,000"
+Ghana,No,"34,404,052"
+Madagascar,No,"31,519,168"
+Côte d'Ivoire,No,"31,963,000"
+Cameroon,No,"30,840,000"
+Niger,No,"27,000,000"
+Mali,Yes,"24,526,000"
+Burkina Faso,Yes,"23,462,000"
+Malawi,No,"22,477,000"
+Zambia,No,"21,349,000"
+Chad,No,"20,317,000"
+Somalia,No,"18,822,000"
+Senegal,Yes,"18,508,000"
+Zimbabwe,No,"16,961,000"
+Guinea,No,"14,850,000"
+Benin,Yes,"14,531,000"
+Rwanda,No,"14,201,000"
+Burundi,No,"14,126,000"
+Tunisia,No,"12,317,000"
+South Sudan,No,"12,907,000"
+Togo,Yes,"9,550,000"
+Sierra Leone,No,"8,638,000"
+Libya,No,"7,394,000"
+Congo,Yes,"6,374,000"
+Liberia,No,"5,630,000"
+Central African Republic,No,"5,310,000"
+Mauritania,No,"5,278,000"
+Eritrea,No,"3,859,000"
+Namibia,No,"3,000,000"
+Gambia,No,"2,850,000"
+Gabon,No,"2,555,000"
+Botswana,No,"2,502,000"
+Lesotho,No,"2,368,000"
+Guinea-Bissau,Yes,"2,190,000"
+Equatorial Guinea,No,"1,903,000"
+Mauritius,No,"1,265,000"
+Eswatini,No,"1,212,000"
+Djibouti,No,"1,223,000"
+Comoros,No,"961,045"
+Cabo Verde,No,"524,877"
+Sao Tome & Principe,No,"235,536"
+Seychelles,No,"107,118"
+Niger,Yes,"26,200,000"
+Cote d'Ivoire,Yes,"28,160,000"
