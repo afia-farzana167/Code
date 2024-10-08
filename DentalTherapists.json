@@ -1,0 +1,46 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 350, 
+    "height": 350, 
+    "title": "Comet Chart of Continents Over Years",
+    "data": {
+      "values": [
+        {"Continent": "Africa", "Year": 2018, "Number": 1744},
+        {"Continent": "Africa", "Year": 2022, "Number": 1786},
+        {"Continent": "Americas", "Year": 2018, "Number": 7233},
+        {"Continent": "Americas", "Year": 2022, "Number": 10432},
+        {"Continent": "Eastern Mediterranean", "Year": 2018, "Number": 2019},
+        {"Continent": "Eastern Mediterranean", "Year": 2022, "Number": 2323},
+        {"Continent": "Europe", "Year": 2018, "Number": 4234},
+        {"Continent": "Europe", "Year": 2022, "Number": 3765},
+        {"Continent": "Southeast Asia", "Year": 2018, "Number": 3324},
+        {"Continent": "Southeast Asia", "Year": 2022, "Number": 3567}
+      ]
+    },
+    "mark": {
+      "type": "trail",
+      "point": {"filled": true, "size": 100}
+    },
+    "encoding": {
+      "x": {
+        "field": "Year",
+        "type": "quantitative",
+        "title": "Year"
+      },
+      "y": {
+        "field": "Number",
+        "type": "quantitative",
+        "title": "Number"
+      },
+      "color": {
+        "field": "Continent",
+        "type": "nominal",
+        "scale": {"scheme": "category10"}
+      },
+      "tooltip": [
+        {"field": "Continent", "title": "Continent"},
+        {"field": "Year", "title": "Year"},
+        {"field": "Number", "title": "Number"}
+      ]
+    }
+  }

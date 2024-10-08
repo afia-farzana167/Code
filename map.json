@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 800,
+    "width": 950,
     "height": 450,
     "title": "How much does one year's worth of toothpaste cost?",
     "projection": {"type": "equalEarth"},
@@ -37,7 +37,8 @@
                     "field": "FactValueNumeric",
                     "type": "quantitative",
                     "scale": {"scheme": "reds"},
-                    "title": "Days of Work to Buy Toothpaste"
+                    "title": "Days of Work to Buy Toothpaste", 
+                    "legend": null
                 },
                 
                 "tooltip": [

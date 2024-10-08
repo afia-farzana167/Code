@@ -5,7 +5,7 @@
       "url": "https://raw.githubusercontent.com/afia-farzana167/Code/refs/heads/main/Data/Noma.csv"
     },
     "mark": {
-      "type": "bar"
+      "type": "trail"
     },
     "encoding": {
       "x": {
