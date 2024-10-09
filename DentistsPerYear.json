@@ -2,15 +2,31 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 350, 
     "height": 350, 
+    "title": "Dentists Over the Years", 
     "data": {"url": "https://raw.githubusercontent.com/afia-farzana167/Code/refs/heads/main/Data/Dentists%20Per%2010000.csv"},
     "mark": {
-      "type": "line",
-      "point": true
+      "type": "trail",
+      "point": {"filled": true, "size": 100}
     },
     "encoding": {
-      "x": {"timeUnit": "year", "field": "Period"},
-      "y": {"aggregate":"mean", "field": "Value", "type": "quantitative"},
-      "color": {"field": "ParentLocation", "type": "nominal"}
+      "x": {
+        "timeUnit": "year", 
+        "field": "Period", 
+        "title": "Year", 
+        "axis":{
+          "values": [2018, 2022]
+        }
+      },
+      "y": {
+        "aggregate":"mean", 
+        "field": "Value", 
+        "type": "quantitative", 
+        "title":"Number of Dentists (per 10,000 people)"
+      },
+      "color": {
+        "field": "ParentLocation", 
+        "type": "nominal"
+      }
     }
   }
   

@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 350, 
     "height": 350, 
-    "title": "Comet Chart of Continents Over Years",
+    "title": "Dental Therapists Over the Years",
     "data": {
       "values": [
         {"Continent": "Africa", "Year": 2018, "Number": 1744},
@@ -25,12 +25,15 @@
       "x": {
         "field": "Year",
         "type": "quantitative",
+        "axis":{
+          "values": [2018, 2022]
+        }, 
         "title": "Year"
       },
       "y": {
         "field": "Number",
         "type": "quantitative",
-        "title": "Number"
+        "title": "Number of Dental Therapists"
       },
       "color": {
         "field": "Continent",

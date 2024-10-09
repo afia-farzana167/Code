@@ -9,7 +9,9 @@
     "mark": "bar",
     "encoding": {
       "x": {
-        "field": "Location", "type": "nominal",
+        "field": "Location", 
+        "type": "nominal",
+        "title": "Country",
         "axis": {
           "domain": false,
           "ticks": false,
@@ -19,7 +21,9 @@
         }
       },
       "y": {
-        "field": "FactValueNumeric", "type": "quantitative",
+        "field": "FactValueNumeric", 
+        "type": "quantitative",
+        "title": "Expenditure in Millions (annually)",
         "axis": {
           "gridColor": {
             "condition": {"test": "datum.value === 0", "value": "black"},

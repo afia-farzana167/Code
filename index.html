@@ -64,11 +64,22 @@
 
     <div id="DentistsPerYear" class = "DentistsPerYear-design"> </div>
 
-    <br><br>
+    <br>
 
-    <div id="LipAndOralCavityCancer" class="LipAndOralCavityCancer-design"></div>
+    <div class="Disease-Text">
+        <p>
+           <i>A Tooth for a <del>Tooth</del> Lifetime of Misery - A Closer Look at Dental Disease</i> 
+        </p>
+    </div>
 
-    <div id="UntreatedCaries" class="UntreatedCaries-design"></div>
+    <div class="ColumnContainer">
+        <div id="LipAndOralCavityCancer" class="LipAndOralCavityCancer-design"></div>
+
+        <div class="chart-container">
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h3>
+            <div id="UntreatedCaries" class="UntreatedCaries-design"></div>
+        </div>
+    </div>
 
     <div id="Noma">
 
@@ -141,6 +152,22 @@
 
     .text{
         margin-top: 50px;
+    }
+
+    .ColumnContainer{
+        display: flex;
+    }
+
+    .chart-container{
+        display: flex;
+        flex-direction: column; /* Aligns the text and chart 1 vertically */
+        margin-left: 20px;
+    }
+
+    .Disease-Text{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 28px;
+        text-align: center;
     }
 </style>
 
