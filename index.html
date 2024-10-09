@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+    <script src="map.js"></script>
+    <script src="expenditure.js"></script>
+    <script src="sugar.js"></script>
+    <script src="DentalTherapists.js"></script>
+    <script src="DentistsPerYear.js"></script>
+    <script src="LipAndOralCavityCancer.js"></script>
+    <script src="Noma.js"></script>
+    <script src="UntreatedCaries.js"></script>
+
+</head>
+
+<body style="background-color: #DFE9EB;">
+    <h1 class = "custom-heading">
+        Tooth Be Told: Oral Health Around the World
+    </h1>
+
+    <div id="map" class="map-design"> </div>
+    
+    <br><br>
+
+    <div class="expenditure-container">
+        <div class="expenditure-text">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+        <div id="expenditure" class="expenditure-design"></div>
+        
+    </div>
+
+    <br><br>
+
+    <div class="sugar-container">
+        <div id="sugar" class="sugar-design"> </div>
+        <div class="sugar-text">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="Dental-Workers-Text">
+        <p>
+           <i>Where are the dental workers?</i> 
+        </p>
+    </div>
+
+    <div id="DentalTherapists" class="DentalTherapists-design"> </div>
+
+    <div id="DentistsPerYear" class = "DentistsPerYear-design"> </div>
+
+    <br><br>
+
+    <div id="LipAndOralCavityCancer" class="LipAndOralCavityCancer-design"></div>
+
+    <div id="UntreatedCaries" class="UntreatedCaries-design"></div>
+
+    <div id="Noma">
+
+    </div>
+</body>
+
+<style>
+    .custom-heading {
+        font-family: 'Georgia'; /* Change font */
+        font-size: 56px; /* Adjust font size */
+        color: #333; /* Change color */
+        text-align: center; /* Change position (left, center, right) */
+        margin-top: 25px; /* Adjust spacing from top */
+        background-color: #ABC3CD;
+        height: 130px; 
+        width: 1250px
+    }
+
+    .map-design {
+        margin-left: 150px;
+    }
+
+    .expenditure-design{ 
+        margin-left: 50px
+    }
+
+    .expenditure-text{
+        width: 75%;
+        margin-left: 50px;
+    }
+
+    .expenditure-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sugar-design{
+        margin-left: 50px;
+    }
+
+    .sugar-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .sugar-text{
+        margin-right: 60px; 
+    }
+
+    .Dental-Workers-Text{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .DentalTherapists-design{
+        margin-left: 65px
+    }
+
+    .DentistsPerYear-design{
+        margin-left: -5px
+    }
+
+    .LipAndOralCavityCancer-design{
+        margin-left: 60px
+    }
+
+    .text{
+        margin-top: 50px;
+    }
+</style>
+
+</html>
