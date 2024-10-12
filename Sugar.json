@@ -3,7 +3,14 @@
     "width": 750, 
     "height": 300, 
     "background": null, 
-    "title": "Daily Availability of Sugar per Capita",
+    "title": {
+      "text": "Daily Availability of Sugar",
+      "fontSize": 24,  
+      "fontWeight": "normal",
+      "font": "Times New Roman", 
+      "fontStyle": "italic",
+      "anchor": "middle"  
+    },
     "data": {
       "url": "https://raw.githubusercontent.com/afia-farzana167/Code/refs/heads/main/Data/SugarPerCapita.csv"
     },
@@ -11,33 +18,39 @@
       {
         "mark": {
           "type": "rule",
-          "color": "black", 
-          "size": 35
+          "color": "#FFFDD0", 
+          "size": 15
         },
         "encoding": {
           "x": {
             "field": "ParentLocation", 
             "type": "nominal"},
-          "y": {"field": "FactValueNumeric", 
-          "type": "quantitative", 
-          "scale": {"reverse": false}} 
+          "y": {
+            "field": "FactValueNumeric", 
+            "type": "quantitative", 
+            "scale": {"reverse": false}
+          } 
         }
       },
       {
         "mark": {
           "type": "image",
-          "width": 40, 
-          "height": 40, 
+          "width": 80, 
+          "height": 80, 
           "tooltip": true 
         },
         "encoding": {
+          "url": {
+            "field": "Lollipop", 
+            "type": "nominal"
+          },
           "x": {
             "field": "ParentLocation", 
             "type": "nominal", 
             "axis": {
               "ticks": false,
               "labels": false,
-              "title": "Continent",
+              "title": null,
               "titlePadding": 10
             }
           },
@@ -49,7 +62,11 @@
             }, 
             "axis": {
               "title": "Availability of Sugar Per Capita (g/day)",
-              "tickCount": 5
+              "tickCount": 5, 
+              "titleFont": "Times New Roman", 
+              "titleFontSize": 16,
+              "titleFontWeight": "normal", 
+              "titlePadding": 10
             }
           },
           "tooltip": [
