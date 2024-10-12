@@ -63,7 +63,8 @@
       {
         "mark": {
           "type": "image", 
-          "baseline": "top"
+          "width": 25, 
+          "height": 25
         },
         "encoding": {
           "url": {
@@ -71,44 +72,14 @@
             "type": "nominal"
           },
           "x": {
-            "field": "x",
-            "type": "quantitative"
-          },
-          "y": {
-            "field": "y", 
-            "type": "quantitative"
-          }
-        },
-        "transform": [
-          {
-            "filter": "datum.FactValueNumeric < 3000"
-          }
-        ]
-      }, 
-      {
-        "mark": {
-          "type": "image", 
-          "baseline": "top"
-        },
-        "encoding": {
-          "url": {
-            "field": "Flags", 
+            "field": "Location", 
             "type": "nominal"
           },
-          "x": {
-            "field": "x",
-            "type": "ordinal"
-          },
           "y": {
-            "field": "y", 
+            "field": "FactValueNumeric", 
             "type": "quantitative"
           }
-        },
-        "transform": [
-          {
-            "filter": "datum.FactValueNumeric > 3000"
-          }
-        ]
+        }
       }
     ]
   }
