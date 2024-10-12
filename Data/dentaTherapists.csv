@@ -1,11 +1,26 @@
 ﻿Continent ,Year,Number 
 Africa,2018,1744
+Africa,2019,1853
+Africa,2020,1532
+Africa,2021,1643
 Africa,2022,1786
 Americas,2018,7233
+Americas,2019,8643
+Americas,2020,8231
+Americas,2021,9146
 Americas ,2022,10432
 Eastern Mediterranean,2018,2019
+Eastern Mediterranean,2019,2253
+Eastern Mediterranean,2020,2007
+Eastern Mediterranean,2021,2231
 Eastern Mediterranean,2022,2323
 Europe,2018,4234
+Europe,2019,4321
+Europe,2020,4086
+Europe,2021,2952
 Europe,2022,3765
 Southeast Asia,2018,3324
+Southeast Asia,2019,3824
+Southeast Asia,2020,3542
+Southeast Asia,2021,2743
 Southeast Asia,2022,3567

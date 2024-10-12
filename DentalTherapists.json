@@ -2,6 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 350, 
     "height": 350, 
+    "background": null, 
     "title": "Dental Therapists Over the Years",
     "data": {
       "values": [
