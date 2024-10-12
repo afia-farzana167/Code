@@ -14,48 +14,76 @@
     "data": {
       "url": "https://raw.githubusercontent.com/afia-farzana167/Code/refs/heads/main/Data/Top%20and%20Botton%2010%20Expenditure.csv"
     },
-    "mark": "bar",
-    "encoding": {
-      "x": {
-        "field": "Location", 
-        "type": "nominal",
-        "title": "Country",
-        "axis": {
-          "domain": false,
-          "ticks": false,
-          "labelAngle": 0,
-          "labelPadding": 4,
-          "labelOpacity": 0
-        }, 
-        "sort": {
-          "field": "FactValueNumeric",
-          "order": "ascending" 
-      }
-      },
-      "y": {
-        "field": "FactValueNumeric", 
-        "type": "quantitative",
-        "title": "Expenditure in Millions",
-        "axis": {
-          "titleFont": "Times New Roman", 
-          "titleFontSize": 16,
-          "titleFontWeight": "normal", 
-          "titlePadding": 10
+    "layer": [
+      {
+        "mark": "bar",
+        "encoding": {
+          "x": {
+            "field": "Location", 
+            "type": "nominal",
+            "title": "Country",
+            "axis": {
+              "domain": false,
+              "ticks": false,
+              "labelAngle": 0,
+              "labelPadding": 4,
+              "labelOpacity": 0
+            }, 
+            "sort": {
+              "field": "FactValueNumeric",
+              "order": "ascending" 
+          }
+          },
+          "y": {
+            "field": "FactValueNumeric", 
+            "type": "quantitative",
+            "title": "Expenditure in Millions",
+            "axis": {
+              "titleFont": "Times New Roman", 
+              "titleFontSize": 16,
+              "titleFontWeight": "normal", 
+              "titlePadding": 10
+            }
+          }, 
+          "color": {
+            "condition": [
+              {
+                "test": "datum.FactValueNumeric < 3000", 
+                "value": "#CFB1A9" 
+              }
+            ],
+            "value": "#A9CCCF"
+          }, 
+          "tooltip": [
+            {"field": "Location"},
+            {"field": "FactValueNumeric", "title": "Annual Expenditure (USD) 2021"}
+          ]
         }
       }, 
-      "color": {
-        "condition": [
-          {
-            "test": "datum.FactValueNumeric < 3000", 
-            "value": "#CFB1A9" 
+      {
+        "mark": {
+          "type": "image",
+          "tooltip": true 
+        },
+        "encoding": {
+          "url": {
+            "field": "Flags", 
+            "type": "nominal"
+          },
+          "x": {
+            "field": "Location",
+            "type": "ordinal"
+          },
+          "y": {
+            "field": "FactValueNumeric", 
+            "type": "quantitative"
           }
-        ],
-        "value": "#A9CCCF"
-      }, 
-      "tooltip": [
-        {"field": "Location"},
-        {"field": "FactValueNumeric", "title": "Annual Expenditure (USD) 2021"}
-      ]
-    }
-    
+        },
+        "transform": [
+          {
+            "filter": "datum.FactValueNumeric < 3000"
+          }
+        ]
+      }
+    ]
   }
