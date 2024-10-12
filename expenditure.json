@@ -3,7 +3,14 @@
     "width": 750, 
     "height": 300, 
     "background": null, 
-    "title": "Top 10 Highest and Lowest Spending Countries on Dental Care",
+    "title": {
+      "text": "Top and Bottom 5 Spenders on Dental Care",
+      "fontSize": 24,  
+      "fontWeight": "normal",
+      "font": "Times New Roman", 
+      "fontStyle": "italic",
+      "anchor": "middle"  
+    },
     "data": {
       "url": "https://raw.githubusercontent.com/afia-farzana167/Code/refs/heads/main/Data/Top%20and%20Botton%2010%20Expenditure.csv"
     },
@@ -19,26 +26,36 @@
           "labelAngle": 0,
           "labelPadding": 4,
           "labelOpacity": 0
-        }
+        }, 
+        "sort": {
+          "field": "FactValueNumeric",
+          "order": "ascending" 
+      }
       },
       "y": {
         "field": "FactValueNumeric", 
         "type": "quantitative",
-        "title": "Expenditure in Millions (annually)",
+        "title": "Expenditure in Millions",
         "axis": {
-          "gridColor": {
-            "condition": {"test": "datum.value === 0", "value": "black"},
-            "value": "#ddd"
-          }
+          "titleFont": "Times New Roman", 
+          "titleFontSize": 16,
+          "titleFontWeight": "normal", 
+          "titlePadding": 10
         }
       }, 
       "color": {
-        "condition": {
-          "test": "datum.FactValueNumeric < 0", 
-          "value": "red" 
-        },
-        "value": "blue" 
-      }
+        "condition": [
+          {
+            "test": "datum.FactValueNumeric < 3000", 
+            "value": "#CFB1A9" 
+          }
+        ],
+        "value": "#A9CCCF"
+      }, 
+      "tooltip": [
+        {"field": "Location"},
+        {"field": "FactValueNumeric", "title": "Annual Expenditure (USD) 2021"}
+      ]
     }
     
   }
