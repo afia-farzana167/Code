@@ -21,7 +21,7 @@
           "x": {
             "field": "Location", 
             "type": "nominal",
-            "title": "Country",
+            "title": null,
             "axis": {
               "domain": false,
               "ticks": false,
@@ -63,8 +63,9 @@
       {
         "mark": {
           "type": "image", 
-          "width": 25, 
-          "height": 25
+          "width": 40, 
+          "height": 40, 
+          "tooltip": true 
         },
         "encoding": {
           "url": {
@@ -78,7 +79,11 @@
           "y": {
             "field": "FactValueNumeric", 
             "type": "quantitative"
-          }
+          }, 
+          "tooltip": [
+            {"field": "Location"},
+            {"field": "FactValueNumeric", "title": "Annual Expenditure (USD) 2021"}
+          ]
         }
       }
     ]

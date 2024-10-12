@@ -2,6 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 750, 
     "height": 300, 
+    "background": null, 
     "title": "Daily Availability of Sugar per Capita",
     "data": {
       "url": "https://raw.githubusercontent.com/afia-farzana167/Code/refs/heads/main/Data/SugarPerCapita.csv"
