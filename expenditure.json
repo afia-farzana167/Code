@@ -43,10 +43,6 @@
               "titleFontSize": 16,
               "titleFontWeight": "normal", 
               "titlePadding": 10
-            },
-            "sort": {
-              "field": "FactValueNumeric",
-              "order": "ascending" 
             }
           }, 
           "color": {
@@ -67,8 +63,8 @@
       {
         "mark": {
           "type": "image", 
-          "width": 40, 
-          "height": 40
+          "width": 25, 
+          "height": 25
         },
         "encoding": {
           "url": {
@@ -77,19 +73,11 @@
           },
           "x": {
             "field": "Location", 
-            "type": "nominal", 
-            "sort": {
-              "field": "FactValueNumeric",
-              "order": "ascending" 
-            }
+            "type": "nominal"
           },
           "y": {
             "field": "FactValueNumeric", 
-            "type": "quantitative", 
-            "sort": {
-              "field": "FactValueNumeric",
-              "order": "ascending" 
-            }
+            "type": "quantitative"
           }
         }
       }
