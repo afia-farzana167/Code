@@ -18,7 +18,7 @@
       {
         "mark": {
           "type": "rule",
-          "color": "#FFFDD0", 
+          "color": "#CFB1A9", 
           "size": 15
         },
         "encoding": {
@@ -70,8 +70,8 @@
             }
           },
           "tooltip": [
-            {"field": "ParentLocation", "type": "nominal"},
-            {"field": "FactValueNumeric", "type": "quantitative"}
+            {"field": "ParentLocation", "type": "nominal", "title": "Continent"},
+            {"field": "FactValueNumeric", "type": "quantitative", "title": "Amount of Sugar (g/day)"}
           ]
         }
       }

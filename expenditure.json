@@ -48,11 +48,16 @@
           "color": {
             "condition": [
               {
-                "test": "datum.FactValueNumeric < 3000", 
+                "test": "datum.FactValueNumeric < 8000", 
                 "value": "#CFB1A9" 
               }
             ],
-            "value": "#A9CCCF"
+            "value": "#A9CCCF", 
+            "legend": {
+              "orient": "left",          
+              "titleFontSize": 14,        
+              "labelFontSize": 12        
+            }
           }, 
           "tooltip": [
             {"field": "Location"},
