@@ -3,7 +3,14 @@
     "width": 350, 
     "height": 350, 
     "background": null, 
-    "title": "Dentists Over the Years", 
+    "title": {
+      "text": "Dentists",
+      "fontSize": 24,  
+      "fontWeight": "normal",
+      "font": "Times New Roman", 
+      "fontStyle": "italic",
+      "anchor": "middle"  
+    },
     "data": {"url": "https://raw.githubusercontent.com/afia-farzana167/Code/refs/heads/main/Data/Dentists%20Per%2010000.csv"},
     "mark": {
       "type": "trail",
@@ -11,21 +18,33 @@
     },
     "encoding": {
       "x": {
-        "timeUnit": "year", 
-        "field": "Period", 
-        "title": "Year"
+        "field": "Period",
+        "type": "ordinal",
+        "title": null
       },
       "y": {
         "aggregate":"mean", 
         "field": "Value", 
         "type": "quantitative", 
-        "title":"Number of Dentists (per 10,000 people)"
+        "axis": {
+              "title": "Number of Dentists (per 10,000 people)",
+              "tickCount": 5, 
+              "titleFont": "Times New Roman", 
+              "titleFontSize": 16,
+              "titleFontWeight": "normal", 
+              "titlePadding": 10
+            }
       },
       "color": {
         "field": "ParentLocation", 
         "type": "nominal", 
         "legend": null 
-      }
+      }, 
+      "tooltip": [
+        {"field": "Continent", "title": "Continent"},
+        {"field": "Year", "title": "Year"},
+        {"field": "Number", "title": "Number"}
+      ]
     }
   }
   

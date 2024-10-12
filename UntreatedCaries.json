@@ -1,37 +1,42 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "height": 300,
-    "width": 500,
-    "title": "Prevalence of Untreated Caries in People Aged Over 5",
-    "data": {
-      "url": "https://raw.githubusercontent.com/afia-farzana167/Code/refs/heads/main/Data/Prevalence%20of%20untreated%20caries%20of%20permanent%20teeth%20in%20people%205%5EM%20years.csv"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": null, 
+  "width": 350, 
+  "height": 300, 
+  "title": {
+      "text": "Untreated Caries Around the World (2021)", 
+      "fontSize": 24,  
+      "fontWeight": "normal",
+      "font": "Times New Roman", 
+      "fontStyle": "italic",
+      "anchor": "middle"
     },
-    "mark": "point",
+  "data": {
+    "values": [
+      {"Continent": "Africa", "Number Affected": 1427}, 
+      {"Continent": "Americas", "Number Affected": 1101},
+      {"Continent": "Eastern Mediterranean", "Number Affected": 726},
+      {"Continent": "Europe", "Number Affected": 1831}, 
+      {"Continent": "Southeast Asia", "Number Affected": 316}
+    ]
+  },
+  "layer": [{
+    "mark": {"type": "arc", "innerRadius": 20, "stroke": "#fff"}
+  },{
+    "mark": {"type": "text", "radiusOffset": 15},
     "encoding": {
-      "x": {
-        "field": "Location",
-        "type": "nominal", 
-        "axis": {
-          "ticks": false,
-          "labels": false,
-          "title": "Country",
-          "titlePadding": 10
-        }
-      },
-      "y": {
-        "field": "FactValueNumeric",
-        "type": "quantitative", 
-        "axis": {
-          "title": "Proportion of Untreated Caries (%)",
-          "titlePadding": 10, 
-          "tickCount": 5
-        }, 
-        "scale": {
-          "domain": [20, 60] 
-      }
-      },
-      "color": {
-        "field": "ParentLocation", 
-        "type": "nominal"}
+      "text": {"field": "Number Affected", "type": "quantitative"}
     }
+  }],
+  "encoding": {
+    "theta": {"field": "Number Affected", "type": "quantitative", "stack": true},
+    "radius": {"field": "Number Affected", "scale": {"type": "sqrt", "zero": true, "rangeMin": 20}},
+    "color": {
+      "field": "Continent", 
+      "type": "nominal", 
+    "scale": {"scheme": "category10"}}, 
+    "tooltip": [
+      {"field": "Number Affected", "type": "quantitative"}
+    ]
   }
+}

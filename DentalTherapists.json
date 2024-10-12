@@ -3,10 +3,44 @@
     "width": 350, 
     "height": 350, 
     "background": null, 
-    "title": "Dental Therapists Over the Years",
+    "title": {
+      "text": "Dental Therapists",
+      "fontSize": 24,  
+      "fontWeight": "normal",
+      "font": "Times New Roman", 
+      "fontStyle": "italic",
+      "anchor": "middle"  
+    },
     "data": {
-      "url": "https://raw.githubusercontent.com/afia-farzana167/Code/refs/heads/main/Data/dentaTherapists.csv"
-    }
+      "values": [
+          {"Continent": "Africa", "Year": 2018, "Number": 1744},
+          {"Continent": "Africa", "Year": 2019, "Number": 1853},
+          {"Continent": "Africa", "Year": 2020, "Number": 1532},
+          {"Continent": "Africa", "Year": 2021, "Number": 1643},
+          {"Continent": "Africa", "Year": 2022, "Number": 1486},
+          {"Continent": "Americas", "Year": 2018, "Number": 7233},
+          {"Continent": "Americas", "Year": 2019, "Number": 8643},
+          {"Continent": "Americas", "Year": 2020, "Number": 8231},
+          {"Continent": "Americas", "Year": 2021, "Number": 9146},
+          {"Continent": "Americas", "Year": 2022, "Number": 8432},
+          {"Continent": "Eastern Mediterranean", "Year": 2018, "Number": 2019},
+          {"Continent": "Eastern Mediterranean", "Year": 2019, "Number": 2253},
+          {"Continent": "Eastern Mediterranean", "Year": 2020, "Number": 2007},
+          {"Continent": "Eastern Mediterranean", "Year": 2021, "Number": 2231},
+          {"Continent": "Eastern Mediterranean", "Year": 2022, "Number": 1923},
+          {"Continent": "Europe", "Year": 2018, "Number": 4234},
+          {"Continent": "Europe", "Year": 2019, "Number": 4321},
+          {"Continent": "Europe", "Year": 2020, "Number": 4086},
+          {"Continent": "Europe", "Year": 2021, "Number": 2952},
+          {"Continent": "Europe", "Year": 2022, "Number": 1765},
+          {"Continent": "Southeast Asia", "Year": 2018, "Number": 3324},
+          {"Continent": "Southeast Asia", "Year": 2019, "Number": 3824},
+          {"Continent": "Southeast Asia", "Year": 2020, "Number": 3542},
+          {"Continent": "Southeast Asia", "Year": 2021, "Number": 2743},
+          {"Continent": "Southeast Asia", "Year": 2022, "Number": 3567}
+      
+      ]
+    },
     "mark": {
       "type": "trail",
       "point": {"filled": true, "size": 100}
@@ -14,13 +48,20 @@
     "encoding": {
       "x": {
         "field": "Year",
-        "type": "quantitative",
-        "title": "Year"
+        "type": "ordinal",
+        "title": null
       },
       "y": {
         "field": "Number",
         "type": "quantitative",
-        "title": "Number of Dental Therapists"
+        "title": "Number of Dental Therapists", 
+        "axis": {
+              "title": "Number of Dental Therapists",
+              "titleFont": "Times New Roman", 
+              "titleFontSize": 16,
+              "titleFontWeight": "normal", 
+              "titlePadding": 10
+            }
       },
       "color": {
         "field": "Continent",

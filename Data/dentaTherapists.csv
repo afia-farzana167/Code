@@ -1,4 +1,4 @@
-﻿Continent ,Year,Number 
+﻿Continent,Year,Number 
 Africa,2018,1744
 Africa,2019,1853
 Africa,2020,1532
@@ -8,7 +8,7 @@ Americas,2018,7233
 Americas,2019,8643
 Americas,2020,8231
 Americas,2021,9146
-Americas ,2022,10432
+Americas,2022,10432
 Eastern Mediterranean,2018,2019
 Eastern Mediterranean,2019,2253
 Eastern Mediterranean,2020,2007
