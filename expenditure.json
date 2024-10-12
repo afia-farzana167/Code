@@ -71,11 +71,11 @@
             "type": "nominal"
           },
           "x": {
-            "field": "Location",
-            "type": "ordinal"
+            "field": "x",
+            "type": "quantitative"
           },
           "y": {
-            "field": "FactValueNumeric", 
+            "field": "y", 
             "type": "quantitative"
           }
         },
@@ -96,11 +96,11 @@
             "type": "nominal"
           },
           "x": {
-            "field": "Location",
+            "field": "x",
             "type": "ordinal"
           },
           "y": {
-            "field": "FactValueNumeric", 
+            "field": "y", 
             "type": "quantitative"
           }
         },
