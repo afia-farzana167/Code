@@ -62,8 +62,8 @@
       }, 
       {
         "mark": {
-          "type": "image",
-          "tooltip": true 
+          "type": "image", 
+          "baseline": "top"
         },
         "encoding": {
           "url": {
@@ -82,6 +82,31 @@
         "transform": [
           {
             "filter": "datum.FactValueNumeric < 3000"
+          }
+        ]
+      }, 
+      {
+        "mark": {
+          "type": "image", 
+          "baseline": "top"
+        },
+        "encoding": {
+          "url": {
+            "field": "Flags", 
+            "type": "nominal"
+          },
+          "x": {
+            "field": "Location",
+            "type": "ordinal"
+          },
+          "y": {
+            "field": "FactValueNumeric", 
+            "type": "quantitative"
+          }
+        },
+        "transform": [
+          {
+            "filter": "datum.FactValueNumeric > 3000"
           }
         ]
       }
