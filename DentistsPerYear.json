@@ -2,6 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 350, 
     "height": 350, 
+    "background": null, 
     "title": "Dentists Over the Years", 
     "data": {"url": "https://raw.githubusercontent.com/afia-farzana167/Code/refs/heads/main/Data/Dentists%20Per%2010000.csv"},
     "mark": {
@@ -12,10 +13,7 @@
       "x": {
         "timeUnit": "year", 
         "field": "Period", 
-        "title": "Year", 
-        "axis":{
-          "values": [2018, 2022]
-        }
+        "title": "Year"
       },
       "y": {
         "aggregate":"mean", 
@@ -25,7 +23,8 @@
       },
       "color": {
         "field": "ParentLocation", 
-        "type": "nominal"
+        "type": "nominal", 
+        "legend": null 
       }
     }
   }

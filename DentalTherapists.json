@@ -5,19 +5,8 @@
     "background": null, 
     "title": "Dental Therapists Over the Years",
     "data": {
-      "values": [
-        {"Continent": "Africa", "Year": 2018, "Number": 1744},
-        {"Continent": "Africa", "Year": 2022, "Number": 1786},
-        {"Continent": "Americas", "Year": 2018, "Number": 7233},
-        {"Continent": "Americas", "Year": 2022, "Number": 10432},
-        {"Continent": "Eastern Mediterranean", "Year": 2018, "Number": 2019},
-        {"Continent": "Eastern Mediterranean", "Year": 2022, "Number": 2323},
-        {"Continent": "Europe", "Year": 2018, "Number": 4234},
-        {"Continent": "Europe", "Year": 2022, "Number": 3765},
-        {"Continent": "Southeast Asia", "Year": 2018, "Number": 3324},
-        {"Continent": "Southeast Asia", "Year": 2022, "Number": 3567}
-      ]
-    },
+      "url": "https://raw.githubusercontent.com/afia-farzana167/Code/refs/heads/main/Data/dentaTherapists.csv"
+    }
     "mark": {
       "type": "trail",
       "point": {"filled": true, "size": 100}
@@ -26,9 +15,6 @@
       "x": {
         "field": "Year",
         "type": "quantitative",
-        "axis":{
-          "values": [2018, 2022]
-        }, 
         "title": "Year"
       },
       "y": {
