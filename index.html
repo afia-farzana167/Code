@@ -27,7 +27,14 @@
         Tooth Be Told: Oral Health Around the World
     </h1>
 
-    <div id="map" class="map-design"> </div>
+    <div class="map-container">
+        <div id="map" class="map-design"> </div>
+    </div>
+
+    
+    <div class="border-shadow">
+            <div id="map" class="map-design"></div>
+      </div>
     
     <br><br>
 
@@ -88,18 +95,25 @@
 
 <style>
     .custom-heading {
-        font-family: 'Georgia'; /* Change font */
-        font-size: 56px; /* Adjust font size */
-        color: #333; /* Change color */
-        text-align: center; /* Change position (left, center, right) */
-        margin-top: 25px; /* Adjust spacing from top */
+        font-family: 'Georgia'; 
+        font-size: 56px; 
+        color: #333; 
+        text-align: center; 
+        margin-top: 25px; 
         background-color: #ABC3CD;
-        height: 130px; 
-        width: 1250px
+        height: 20%; 
+        width: 100%;
     }
 
     .map-design {
-        margin-left: 150px;
+        width: 100%;
+        text-align: center; 
+    }
+
+    .map-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .expenditure-design{ 
@@ -169,6 +183,8 @@
         font-size: 28px;
         text-align: center;
     }
+
+    
 </style>
 
 </html>

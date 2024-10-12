@@ -1,8 +1,16 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 950,
-    "height": 450,
-    "title": "How much does one year's worth of toothpaste cost?",
+    "width": 900,
+    "height": 500,
+    "background": null, 
+    "title": {
+        "text": "How many hours need to be worked to afford a year's worth of toothpaste?",
+        "fontSize": 24,  
+        "fontWeight": "normal",
+        "font": "Times New Roman", 
+        "fontStyle": "italic",
+        "anchor": "middle"  
+      },
     "projection": {"type": "equalEarth"},
     "layer": [
         {
@@ -15,7 +23,7 @@
             },
             "mark": {
                 "type": "geoshape",
-                "fill": "lightgray",
+                "fill": "#A9CCCF",
                 "stroke": "white"
             }
         },
@@ -31,20 +39,23 @@
                 "longitude": {"field": "longitude", "type": "quantitative"},
                 "size": {
                     "field": "FactValueNumeric",
-                    "type": "quantitative"
-                },
+                    "type": "quantitative", 
+                    "scale": {
+                        "range": [50, 500]  
+                    }
+                }, 
                 "color": {
                     "field": "FactValueNumeric",
                     "type": "quantitative",
-                    "scale": {"scheme": "reds"},
+                    "scale": {
+                        "range": ["#f7c6b2", "#CFB1A9", "#cf9671"] 
+                    },
                     "title": "Days of Work to Buy Toothpaste", 
                     "legend": null
-                },
-                
+                },                
                 "tooltip": [
-                    {"field": "longitude"},
-                    {"field": "latitude"},
-                    {"field": "FactValueNumeric"}
+                    {"field": "Location"},
+                    {"field": "FactValueNumeric", "title": "Average Cost (USD)"}
                 ]
             }
         }

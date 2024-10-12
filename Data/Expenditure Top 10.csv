@@ -1,11 +1,11 @@
-IndicatorCode	Indicator	ValueType	ParentLocationCode	ParentLocation	Location type	SpatialDimValueCode	Location	Period type	Period	IsLatestYear	FactValueNumeric	Value	Language
-ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL	Total expenditure on dental healthcare in million (US$)	numeric	WPR	Western Pacific	Country	AUS	Australia	Year	2019	TRUE	7370	7 370.3	EN
-ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL	Total expenditure on dental healthcare in million (US$)	numeric	EUR	Europe	Country	ESP	Spain	Year	2019	TRUE	8306	8 306.3	EN
-ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL	Total expenditure on dental healthcare in million (US$)	numeric	EUR	Europe	Country	GBR	United Kingdom of Great Britain and Northern Ireland	Year	2019	TRUE	9577	9 576.9	EN
-ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL	Total expenditure on dental healthcare in million (US$)	numeric	EUR	Europe	Country	FRA	France	Year	2019	TRUE	12666	12 666.0	EN
-ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL	Total expenditure on dental healthcare in million (US$)	numeric	AMR	Americas	Country	CAN	Canada	Year	2019	TRUE	12829	12 829.1	EN
-ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL	Total expenditure on dental healthcare in million (US$)	numeric	EUR	Europe	Country	ITA	Italy	Year	2019	TRUE	19123	19 123.0	EN
-ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL	Total expenditure on dental healthcare in million (US$)	numeric	WPR	Western Pacific	Country	JPN	Japan	Year	2019	TRUE	28734	28 733.6	EN
-ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL	Total expenditure on dental healthcare in million (US$)	numeric	EUR	Europe	Country	DEU	Germany	Year	2019	TRUE	30877	30 877.3	EN
-ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL	Total expenditure on dental healthcare in million (US$)	numeric	WPR	Western Pacific	Country	CHN	China	Year	2019	TRUE	61549	61 548.6	EN
-ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL	Total expenditure on dental healthcare in million (US$)	numeric	AMR	Americas	Country	USA	United States of America	Year	2019	TRUE	133506	133 505.8	EN
+"IndicatorCode	Indicator	ValueType	ParentLocationCode	ParentLocation	Location type	SpatialDimValueCode	Location	Period type	Period	IsLatestYear	FactValueNumeric	Value	Language"
+"ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL	Total expenditure on dental healthcare in million (US$)	numeric	WPR	Western Pacific	Country	AUS	Australia	Year	2019	TRUE	7370	7 370.3	EN"
+"ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL	Total expenditure on dental healthcare in million (US$)	numeric	EUR	Europe	Country	ESP	Spain	Year	2019	TRUE	8306	8 306.3	EN"
+"ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL	Total expenditure on dental healthcare in million (US$)	numeric	EUR	Europe	Country	GBR	United Kingdom of Great Britain and Northern Ireland	Year	2019	TRUE	9577	9 576.9	EN"
+"ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL	Total expenditure on dental healthcare in million (US$)	numeric	EUR	Europe	Country	FRA	France	Year	2019	TRUE	12666	12 666.0	EN"
+"ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL	Total expenditure on dental healthcare in million (US$)	numeric	AMR	Americas	Country	CAN	Canada	Year	2019	TRUE	12829	12 829.1	EN"
+"ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL	Total expenditure on dental healthcare in million (US$)	numeric	EUR	Europe	Country	ITA	Italy	Year	2019	TRUE	19123	19 123.0	EN"
+"ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL	Total expenditure on dental healthcare in million (US$)	numeric	WPR	Western Pacific	Country	JPN	Japan	Year	2019	TRUE	28734	28 733.6	EN"
+"ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL	Total expenditure on dental healthcare in million (US$)	numeric	EUR	Europe	Country	DEU	Germany	Year	2019	TRUE	30877	30 877.3	EN"
+"ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL	Total expenditure on dental healthcare in million (US$)	numeric	WPR	Western Pacific	Country	CHN	China	Year	2019	TRUE	61549	61 548.6	EN"
+"ORALHEALTH_DENTALHEALTHCARE_EXP_TOTAL	Total expenditure on dental healthcare in million (US$)	numeric	AMR	Americas	Country	USA	United States of America	Year	2019	TRUE	133506	133 505.8	EN"
