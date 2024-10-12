@@ -25,10 +25,10 @@
       },
       {
         "mark": {
-          "type": "circle",
-          "color": "red",
-          "opacity": 1, 
-          "size": 3500
+          "type": "image",
+          "width": 40, 
+          "height": 40, 
+          "tooltip": true 
         },
         "encoding": {
           "x": {
