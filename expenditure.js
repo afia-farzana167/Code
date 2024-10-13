@@ -1,4 +1,4 @@
 var vg_2 = "expenditure.json";
-vegaEmbed("#expenditure", vg_2).then(function(result) {
+vegaEmbed("#expenditure", vg_2,{ actions: false }).then(function(result) {
 // Access the Vega view instance ("https://vega.github.io/vega/docs/api/view/") as result.view
 }).catch(console.error);
