@@ -1,5 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "The following chart demonstrates the general decline in the number of dental therapists globally.",
     "width": 350, 
     "height": 350, 
     "background": null, 

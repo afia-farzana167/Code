@@ -1,6 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "background": null, 
+  "description": "The following chart presents the portion of untreater caries in each continent",
   "width": 350, 
   "height": 300, 
   "config": {

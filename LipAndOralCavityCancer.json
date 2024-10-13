@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "Data is based on the following dataset: https://www.who.int/data/gho/data/indicators/indicator-details/GHO/number-of-new-cases",
+    "description": "The following chart presents the prevalence of lip and oral cavity cancer globally. Data is based on the following dataset: https://www.who.int/data/gho/data/indicators/indicator-details/GHO/number-of-new-cases",
     "config": {"view": {"stroke": ""}},
     "background": null, 
     "width": 400,

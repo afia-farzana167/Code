@@ -2,6 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 750, 
     "height": 300, 
+    "description": "The following chart presents the availability of sugar per captia in grams per day across the continents.",
     "background": null, 
     "title": {
       "text": "Daily Availability of Sugar",

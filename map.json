@@ -2,6 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 1200,
     "height": 600,
+    "description": "The following data presents the cost of buying a year's worth of toothpast across the globe using a proportional symbol map.",
     "background": null, 
     "config": {
         "view": {

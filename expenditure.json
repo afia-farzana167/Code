@@ -2,6 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 750, 
     "height": 300, 
+    "description": "The following chart presents the 5 top and bottom most spenders (countries) on dentalcare.",
     "background": null, 
     "title": {
       "text": "Top and Bottom 5 Spenders on Dental Care",

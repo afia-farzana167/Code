@@ -2,6 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 350, 
     "height": 350, 
+    "description": "The following chart demonstrates the general decline in the number of dentists globally.",
     "background": null, 
     "title": {
       "text": "Dentists",
