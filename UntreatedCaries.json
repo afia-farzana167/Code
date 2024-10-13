@@ -3,6 +3,11 @@
   "background": null, 
   "width": 350, 
   "height": 300, 
+  "config": {
+      "view": {
+      "stroke": null 
+      }
+  }, 
   "title": {
       "text": "Untreated Caries Around the World (2021)", 
       "fontSize": 24,  
@@ -34,7 +39,7 @@
     "color": {
       "field": "Continent", 
       "type": "nominal", 
-    "scale": {"scheme": "category10"}}, 
+    "scale": {"range": ["#1f77b4", "#2ca02c", "#fffdd0", "#17becf", "#bcbd22"]}}, 
     "tooltip": [
       {"field": "Number Affected", "type": "quantitative"}
     ]

@@ -66,7 +66,7 @@
       "color": {
         "field": "Continent",
         "type": "nominal",
-        "scale": {"scheme": "category10"}
+        "scale": {"range": ["#1f77b4", "#2ca02c", "#fffdd0", "#17becf", "#bcbd22"]}
       },
       "tooltip": [
         {"field": "Continent", "title": "Continent"},

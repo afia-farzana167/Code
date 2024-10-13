@@ -38,12 +38,13 @@
       "color": {
         "field": "ParentLocation", 
         "type": "nominal", 
-        "legend": null 
+        "legend": null, 
+        "scale": {"range": ["#1f77b4", "#2ca02c", "#fffdd0", "#17becf", "#bcbd22"]}
       }, 
       "tooltip": [
-        {"field": "Continent", "title": "Continent"},
-        {"field": "Year", "title": "Year"},
-        {"field": "Number", "title": "Number"}
+        {"field": "ParentLocation", "title": "Continent"},
+        {"field": "Period", "title": "Year"},
+        {"field": "Value", "title": "Number"}
       ]
     }
   }

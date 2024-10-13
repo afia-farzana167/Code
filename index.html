@@ -28,16 +28,28 @@
             Tooth Be Told: Oral Health Around the World
         </h1>
 
+        <br><br>
+
         <div class="map-container">
             <div id="map" class="map-design"> </div>
+
         </div>
         
-        <br>
+        <br><br><br><br>
+
+        <div class="Dental-Workers-Text">
+            <p>
+            <i>Where are the biggest risk factors for oral health disease?</i> 
+            </p>
+        </div>
 
         <div class="expenditure-container">
             <div class="expenditure-text">
                 <p>
-                    Spending on dental healthcare reflects a country’s commitment to oral health and its broader healthcare priorities. Higher dental healthcare spending can improve access to preventive care, reduce the incidence of oral diseases, and lessen the economic burden of treating advanced conditions. It also highlights disparities in healthcare access, as lower-spending countries may experience higher rates of untreated dental issues, leading to broader health complications. 
+                    <span class="title">Spending</span>
+                    on dental healthcare is the most meaningful action governments can take to reduce their nation's incidence of
+                    oral health disease. Studies by the World Health Organisation (WHO) suggest a direct correlation between 
+                    government expenditure on oral health and the prevalence of oral health disease in the country. 
                 </p>
             </div>
             <div id="expenditure" class="expenditure-design"></div>
@@ -50,7 +62,11 @@
             <div id="sugar" class="sugar-design"> </div>
             <div class="sugar-text">
                 <p>
-                    Sugar plays a major role in dental health by fueling the growth of harmful bacteria in the mouth. When sugar is consumed, bacteria convert it into acids that erode tooth enamel, leading to cavities and decay. Frequent consumption of sugary foods and drinks increases the risk of tooth damage, as prolonged exposure to acid weakens enamel over time. Reducing sugar intake, alongside regular brushing and flossing, is key to preventing cavities and maintaining overall oral health.
+                    <span class="title">Sugar</span> consumption is the largest dietary risk factor for oral health disease. 
+                    Studies conducted by the WHO in 2021 suggest that wealthier nations with greater access 
+                    to sugar are more likely to suffer from
+                    treatable oral health diseases. People living in countries with less access to sugar on the other hand, are
+                    more likely to experience long-term and untreatable conditions. 
                 </p>
             </div>
         </div>
@@ -58,9 +74,19 @@
         <div class="dental-workers">
             <div class="Dental-Workers-Text">
                 <p>
-                <i>Where are the dental workers?</i> 
+                    <i>Where are the dental workers?</i> 
                 </p>
             </div>
+
+            <div class="Dental-Workers-Description">
+                <p>
+                    <span class="title">Concerningly,</span> the world has seen a shortage of dental workers since the Covid-19 pandemic, including both 
+                    dentists and dental therapists. While some nations have recovered from this decrease and responded by 
+                    introducing initiatives to attract more professionals to the field, others still suffer from the shortage.
+                </p>
+            </div>
+
+            <br><br>
 
             <div id="DentalTherapists" class="DentalTherapists-design"> </div>
 
@@ -78,10 +104,18 @@
         
             <div class="caries">
                 <div class="disease-description">
-                    <p>Dental caries, or tooth decay, occurs when acids from bacteria erode tooth enamel, leading to cavities. Oral cancers, often linked to tobacco, alcohol, and HPV, affect the mouth, tongue, or throat. Both conditions can significantly impact health, requiring early detection and treatment to prevent serious complications.    <div id="UntreatedCaries" class="UntreatedCaries-design"></p>
+                    <p><span class="title">Dental caries</span> are classified as the first stage of many oral 
+                        health diseases, while lip and oral cavity cancer are considered the most extreme.  
+                        Whereas many people spend their entire lives with untreated caries, lip and oral 
+                        cavity cancer require immediate attention alongside expenses that many cannot afford. 
+                        Pictured to the left is a representation of the total number of people in the world with
+                        this cancer, and below, the number with untreated caries, both based on WHO data from 2021.   
+                    </p>
+                    <div id="UntreatedCaries" class="UntreatedCaries-design"></div>
                 </div>
-        </div>
-    </div>
+            </div>
+
+            <h6>Author: Afia Farzana, Date: 13/10/2024, Data Source: World Health Organisation Oral Health Data Portal</h6>
 
 </body>
 
@@ -91,6 +125,7 @@
       width: 1170px; 
       height: 650px;  
       margin: 0 auto; 
+     
     }
     .custom-heading {
         font-family: 'Georgia'; 
@@ -106,6 +141,22 @@
     .map-design {
         width: 100%;
         text-align: center; 
+        margin-right: 150px; 
+    }
+
+    .map-text{
+        width: 230px;
+        height: 100px; 
+        text-align: justify;
+        display: inline-block; 
+        border-radius: 5px; 
+        position: absolute;
+        bottom: 180px;  
+        left: 1006px;
+        z-index: 10;  
+        padding: 0px 5px;
+        border: 3px solid #CFB1A9;
+        font-family: 'Times New Roman', Times, serif;
     }
 
     .map-container {
@@ -120,11 +171,14 @@
         margin-left: 50px
     }
 
+    .title{
+        font-size: 24px;
+    }
     .expenditure-text{
         width: 75%;
         margin-left: 50px;
         text-align: justify;
-        border: 2px solid #ABC3CD; 
+        border: 4px solid #ABC3CD; 
         padding: 10px; 
         display: inline-block; 
         box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); 
@@ -150,18 +204,34 @@
 
     .sugar-text{
         margin-right: 60px; 
+        font-size: 16px;
         text-align: justify;
-        border: 2px solid #ABC3CD; 
+        border: 4px solid #ABC3CD; 
         padding: 10px; 
         display: inline-block; 
         box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); 
         border-radius: 5px; 
+        
     }
 
     .Dental-Workers-Text{
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 28px;
         text-align: center;
+    }
+
+    .Dental-Workers-Description{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+        text-align: center;
+        text-align: justify;
+        width: 80%; 
+        margin-left: 5%;
+        border: 4px solid #ABC3CD; 
+        padding: 10px; 
+        display: inline-block; 
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); 
+        border-radius: 5px; 
     }
 
     .DentalTherapists-design{

@@ -41,26 +41,27 @@
         {"id": 32},
         {"id": 33},
         {"id": 34},
-        {"id": 35},
-        {"id": 36},
-        {"id": 37}
+        {"id": 35}
       ]
     },
     "transform": [
-      {"calculate": "ceil (datum.id/5)", "as": "col"},
-      {"calculate": "datum.id - datum.col*5", "as": "row"}
+      {"calculate": "ceil (datum.id/7)", "as": "col"},
+      {"calculate": "datum.id - datum.col*7", "as": "row"}
     ],
     "title": {
-      "text": "1 tooth : 10, 000 people",
-      "font": "Times New Roman",
+      "text": "Lip and Oral Cavity Cancer (1:10,000)",
+      "fontSize": 24,  
       "fontWeight": "normal",
-      "anchor": "end",    
-      "fontSize": 18,      
-      "dy": 450            
+      "font": "Times New Roman", 
+      "fontStyle": "italic" 
     },
     "mark": {"type": "point", "filled": true},
     "encoding": {
-      "x": {"field": "col", "type": "ordinal", "axis": null},
+      "x": {
+        "field": "col", 
+        "type": "ordinal", 
+        "axis": null
+      },
       "y": {"field": "row", "type": "ordinal", "axis": null},
       "shape": {
         "value": "M4.36,14c-1,0-0.56-2.67-0.86-5c-0.1-0.76-1-1.49-1.12-2.06C2,5,1.39,1.44,3.66,1S6,3,7.54,3s1.57-2.36,3.85-2 s1.59,3.9,1.29,5.9c-0.1,0.45-1.1,1.48-1.18,2.06c-0.33,2.4,0.32,5-0.8,5c-0.93,0-1.32-2.72-2-4.5C8.43,8.63,8.06,8,7.54,8 C6,8,5.75,14,4.36,14z"

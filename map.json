@@ -1,11 +1,16 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 900,
-    "height": 500,
+    "width": 1200,
+    "height": 600,
     "background": null, 
+    "config": {
+        "view": {
+        "stroke": null 
+        }
+    }, 
     "title": {
         "text": "How many hours need to be worked to afford a year's worth of toothpaste?",
-        "fontSize": 24,  
+        "fontSize": 29,  
         "fontWeight": "normal",
         "font": "Times New Roman", 
         "fontStyle": "italic",
